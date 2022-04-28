@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld'
-import './App.css'
+import './index.scss'
 
 const App = defineComponent({
   render() {

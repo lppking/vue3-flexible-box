@@ -1,5 +1,5 @@
 import { defineComponent, ref } from 'vue'
-import './index.css'
+import './index.scss'
 
 const HelloWorld = defineComponent({
   props: {
