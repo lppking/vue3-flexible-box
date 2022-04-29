@@ -13,3 +13,16 @@ code {
   border-radius: 4px;
   color: #304455;
 }
+.container {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  background-color: antiquewhite;
+  .center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

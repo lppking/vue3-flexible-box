@@ -6,8 +6,8 @@ const App = defineComponent({
   render() {
     return (
       <div>
-        <img alt="Vue logo" src="./assets/logo.png" />
-        <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+        <h1>Vue3FlexibleBox</h1>
+        <HelloWorld />
       </div>
     )
   }

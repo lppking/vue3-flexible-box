@@ -1,0 +1,77 @@
+.vfb-container {
+  border: 1px solid red;
+  position: absolute;
+}
+/*状态 css start*/
+.vfb-container.active {
+  box-sizing: border-box;
+  border: 2px solid red;
+}
+
+.vfb-container.resizing {
+  border-style: dashed;
+}
+
+/* resize handle按钮 css start*/
+.vfb-container > .vfb-handle {
+  position: absolute;
+  border: 1px solid #333;
+  width: 8px;
+  height: 8px;
+  background: #f0f0f0;
+}
+.vfb-container > .vfb-handle.vfb-handle-tl {
+  top: 0px;
+  left: 0px;
+  transform: translate(-50%, -50%);
+  cursor: nw-resize;
+}
+
+.vfb-container > .vfb-handle.vfb-handle-tm {
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: n-resize;
+}
+
+.vfb-container > .vfb-handle.vfb-handle-tr {
+  top: 0px;
+  right: 0px;
+  transform: translate(50%, -50%);
+  cursor: ne-resize;
+}
+
+.vfb-container > .vfb-handle.vfb-handle-ml {
+  top: 50%;
+  left: 0px;
+  transform: translate(-50%, -50%);
+  cursor: w-resize;
+}
+
+.vfb-container > .vfb-handle.vfb-handle-mr {
+  top: 50%;
+  right: 0px;
+  transform: translate(50%, -50%);
+  cursor: e-resize;
+}
+
+.vfb-container > .vfb-handle.vfb-handle-bl {
+  bottom: 0px;
+  left: 0px;
+  transform: translate(-50%, 50%);
+  cursor: sw-resize;
+}
+
+.vfb-container > .vfb-handle.vfb-handle-bm {
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  cursor: s-resize;
+}
+
+.vfb-container > .vfb-handle.vfb-handle-br {
+  bottom: 0px;
+  right: 0px;
+  transform: translate(50%, 50%);
+  cursor: se-resize;
+}
