@@ -2,6 +2,10 @@
   "name": "vue3-flexible-box",
   "private": true,
   "version": "0.0.0",
+  "main": "dist/vue3-flexible-box.es.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -11,6 +15,7 @@
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@types/node": "^17.0.29",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
     "@vitejs/plugin-vue": "^2.3.1",
